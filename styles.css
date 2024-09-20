@@ -67,6 +67,16 @@ body {
 .card-title, .card-text {
   color: #1D1B20;
 }
+.card {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  transform: scale(1.02); 
+  background-color: #f9f7f3;
+}
 
 .contact-info {
   font-size: 1.2em;
