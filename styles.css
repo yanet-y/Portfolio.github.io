@@ -75,7 +75,7 @@ body {
 .card:hover {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   transform: scale(1.02); 
-  background-color: #f9f7f3;
+  background-color: #9f7d0f;
 }
 
 .contact-info {
